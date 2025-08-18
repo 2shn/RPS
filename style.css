@@ -9,7 +9,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 10vw;
     flex-wrap: wrap;
 }
 
@@ -51,4 +51,78 @@ header>p {
 
 .start-game-btn:hover {
     background-color:rgb(53, 53, 53);
+}
+
+/* Gameplay */
+
+.game-play {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    gap: 5vh;
+}
+
+.left {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80vw;
+    flex: 0 1 auto;
+}
+
+.left > h2 {
+    text-align: center;
+}
+
+.player-choice {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin: 8px 0;
+}
+
+.player-choice button, .player-choice>p {
+    flex: auto;
+}
+
+.player-choice button {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.player-choice button:hover {
+    background-color: rgb(54, 54, 54);
+}
+
+h3 {
+    font-size: 15px;
+    color: rgb(129, 129, 129);
+}
+
+/* right */
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.right h2 {
+    font-weight: 700;
+    font-size: 1.7em;
+}
+
+.right > button {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.right > button:hover {
+    background-color: rgb(42, 42, 42);
 }

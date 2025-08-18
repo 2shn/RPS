@@ -21,16 +21,14 @@
     </header>
     
     <main>
-        <section class="game-settings">
+        <section class="game-settings" style="display:none">
             <p>Enter the number of rounds you want to play:</p>
             <input class="rounds-input" type="text" placeholder="..number...">
             <button class="start-game-btn">Start</button>
         </section>
         
         <section class="game-play">
-
             <div class="left">
-
                 <h2>Round <span class="round-number">1</span></h2>
                 <div class="player-choice">
                     <p>Choose:</p>
@@ -39,9 +37,9 @@
                     <button>Scissor</button>
                 </div>
 
-                <p>
-                    Computer choice is.... <span class="computer-choice">=></span>
-                </p>
+                <h3>
+                    Computer choice is => <span class="computer-choice"></span>
+                </h3>
 
             </div>
 
@@ -49,7 +47,7 @@
                 <h2>Game result</h2>
                 <p>Player score: <span class="player-score">0</span></p>
                 <p>Computer score: <span class="computer-score">0</span></p>
-                <h3>Final result... <span class="final-result">=></span></h3>
+                <button class="new-round">New round?</button>
             </div>
         </section>
     </main>
