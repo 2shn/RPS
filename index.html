@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissor</title>
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +21,7 @@
     </header>
     
     <main>
-        <section class="game-settings" style="display:none">
+        <section class="game-settings">
             <p>Enter the number of rounds you want to play:</p>
             <input class="rounds-input" type="text" placeholder="..number...">
             <button class="start-game-btn">Start</button>
@@ -47,7 +47,7 @@
                 <h2>Game result</h2>
                 <p>Player score: <span class="player-score">0</span></p>
                 <p>Computer score: <span class="computer-score">0</span></p>
-                <button class="new-round">New round?</button>
+                <button class="new-round">New game?</button>
             </div>
         </section>
     </main>
